@@ -16,6 +16,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let coreDataManager = CoreDataManager()
+        
+        guard let tableViewController = self.window?.rootViewController as? DevedorTableViewController else {
+            fatalError("RootViewController not found")
+        }
+//        guard let navigationController = self.window?.rootViewController as? UINavigationController else {
+//            fatalError("RootViewController not found")
+//        }
+//
+//        guard let tableViewController = navigationController.viewControllers.first as? DevedorTableViewController else {
+//            fatalError("TableViewController not found")
+//        }
+        
+        tableViewController.managedObjectContext = coreDataManager.managedObjectContext
+        
+        
         return true
     }
 

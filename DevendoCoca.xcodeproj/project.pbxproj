@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1012EF320BC60AD00E0A800 /* DevedorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1012EF220BC60AD00E0A800 /* DevedorTableViewController.swift */; };
+		C1012EF520BC611A00E0A800 /* DevedorListDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1012EF420BC611A00E0A800 /* DevedorListDataProvider.swift */; };
+		C1012EF720BC613000E0A800 /* DevedorListDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1012EF620BC613000E0A800 /* DevedorListDataSource.swift */; };
+		C1012EF920BC666200E0A800 /* AddNewDevedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1012EF820BC666200E0A800 /* AddNewDevedor.swift */; };
 		C113E0A420B71418008A1118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113E0A320B71418008A1118 /* AppDelegate.swift */; };
-		C113E0A620B71418008A1118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113E0A520B71418008A1118 /* ViewController.swift */; };
 		C113E0A920B71418008A1118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C113E0A720B71418008A1118 /* Main.storyboard */; };
 		C113E0AB20B7141F008A1118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C113E0AA20B7141F008A1118 /* Assets.xcassets */; };
 		C113E0AE20B7141F008A1118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C113E0AC20B7141F008A1118 /* LaunchScreen.storyboard */; };
+		C113E0B620B71E50008A1118 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113E0B520B71E50008A1118 /* TableViewController.swift */; };
+		C113E0B820B71ECC008A1118 /* DevedorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113E0B720B71ECC008A1118 /* DevedorCell.swift */; };
+		C113E0BA20B72454008A1118 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C113E0B920B72454008A1118 /* CoreDataManager.swift */; };
+		C113E0BD20B72645008A1118 /* DevendoCocaDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C113E0BB20B72645008A1118 /* DevendoCocaDataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C1012EF220BC60AD00E0A800 /* DevedorTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevedorTableViewController.swift; sourceTree = "<group>"; };
+		C1012EF420BC611A00E0A800 /* DevedorListDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevedorListDataProvider.swift; sourceTree = "<group>"; };
+		C1012EF620BC613000E0A800 /* DevedorListDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevedorListDataSource.swift; sourceTree = "<group>"; };
+		C1012EF820BC666200E0A800 /* AddNewDevedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewDevedor.swift; sourceTree = "<group>"; };
 		C113E0A020B71418008A1118 /* DevendoCoca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevendoCoca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C113E0A320B71418008A1118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C113E0A520B71418008A1118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C113E0A820B71418008A1118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C113E0AA20B7141F008A1118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C113E0AD20B7141F008A1118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C113E0AF20B7141F008A1118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C113E0B520B71E50008A1118 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		C113E0B720B71ECC008A1118 /* DevedorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevedorCell.swift; sourceTree = "<group>"; };
+		C113E0B920B72454008A1118 /* CoreDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		C113E0BC20B72645008A1118 /* DevendoCocaDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DevendoCocaDataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +69,18 @@
 			isa = PBXGroup;
 			children = (
 				C113E0A320B71418008A1118 /* AppDelegate.swift */,
-				C113E0A520B71418008A1118 /* ViewController.swift */,
+				C113E0B920B72454008A1118 /* CoreDataManager.swift */,
+				C113E0B520B71E50008A1118 /* TableViewController.swift */,
+				C113E0B720B71ECC008A1118 /* DevedorCell.swift */,
 				C113E0A720B71418008A1118 /* Main.storyboard */,
+				C1012EF220BC60AD00E0A800 /* DevedorTableViewController.swift */,
+				C1012EF420BC611A00E0A800 /* DevedorListDataProvider.swift */,
+				C1012EF620BC613000E0A800 /* DevedorListDataSource.swift */,
+				C1012EF820BC666200E0A800 /* AddNewDevedor.swift */,
 				C113E0AA20B7141F008A1118 /* Assets.xcassets */,
 				C113E0AC20B7141F008A1118 /* LaunchScreen.storyboard */,
 				C113E0AF20B7141F008A1118 /* Info.plist */,
+				C113E0BB20B72645008A1118 /* DevendoCocaDataModel.xcdatamodeld */,
 			);
 			path = DevendoCoca;
 			sourceTree = "<group>";
@@ -135,7 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C113E0A620B71418008A1118 /* ViewController.swift in Sources */,
+				C1012EF320BC60AD00E0A800 /* DevedorTableViewController.swift in Sources */,
+				C1012EF920BC666200E0A800 /* AddNewDevedor.swift in Sources */,
+				C1012EF520BC611A00E0A800 /* DevedorListDataProvider.swift in Sources */,
+				C113E0B820B71ECC008A1118 /* DevedorCell.swift in Sources */,
+				C113E0BD20B72645008A1118 /* DevendoCocaDataModel.xcdatamodeld in Sources */,
+				C113E0B620B71E50008A1118 /* TableViewController.swift in Sources */,
+				C113E0BA20B72454008A1118 /* CoreDataManager.swift in Sources */,
+				C1012EF720BC613000E0A800 /* DevedorListDataSource.swift in Sources */,
 				C113E0A420B71418008A1118 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +362,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C113E0BB20B72645008A1118 /* DevendoCocaDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C113E0BC20B72645008A1118 /* DevendoCocaDataModel.xcdatamodel */,
+			);
+			currentVersion = C113E0BC20B72645008A1118 /* DevendoCocaDataModel.xcdatamodel */;
+			path = DevendoCocaDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C113E09820B71418008A1118 /* Project object */;
 }
